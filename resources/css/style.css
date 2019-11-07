@@ -3,7 +3,7 @@
 /* General Styles */
 
   body {
-    background-image: url(../images/website_background.jpg);
+    background-image: url(../images/background_image.jpg);
     background-size: cover;
     background-color: black;
     font-family: 'Aldrich';
@@ -26,6 +26,7 @@
     border-style: solid;
     border-width: 2px;
     border-bottom: 0px;
+    border-radius: 5px 5px 0px 0px;
     background-color: hsl(270, 53%, 37%);
   }
 
@@ -50,9 +51,88 @@
   }
 
   a:hover {
-    color: hsla(195, 93%, 55%, 1);
+    color: hsl(195, 93%, 55%, 1);
   }
 
 
 
 /* Header Styles End */
+
+/* Main Styles */
+
+  .map_boxes1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .map_box1 {
+    width: 320px;
+    height: 320px;
+    margin-top: 200px;
+    background-color: black;
+    border-radius: 10px;
+  }
+
+  .map_boxes2 {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+  }
+    .map_box2 {
+      width: 320px;
+      height: 320px;
+      margin: 50px;
+      margin-top: 100px;
+      background-color: black;
+      border-radius: 10px;
+    }
+
+    .map_text {
+      color: white;
+      text-align: center;
+      font-size: 50px;
+      margin-top: 0px;
+      border-radius: 10px 10px 0px 0px;
+      background-color: hsl(270, 53%, 37%, .8);
+    }
+
+    .map_text:hover {
+      background-color: hsl(195, 93%, 55%, 1);
+    }
+
+    .factory {
+      background-image: url(https://oyster.ignimgs.com/mediawiki/apis.ign.com/escape-from-tarkov/d/dd/ZzNyPWv.jpg?width=1600);
+      background-size: cover;
+    }
+
+    .customs {
+      background-image: url(https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/4/4f/Customs-2d-by-ROFLWOFFL.png);
+      background-size: cover;
+    }
+
+    .woods {
+      background-image: url(https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/d/d9/Woods_v1.1_lowres.jpg);
+      background-size: cover;
+    }
+
+    .shoreline {
+      background-image: url(https://gamepedia.cursecdn.com/escapefromtarkov_gamepedia/9/90/Shoreline_marvelin_2_2.jpg?version=865715fdec119a405e83f0d9f9a4fc73);
+      background-size: cover;
+    }
+
+    .interchange {
+      background-image: url(https://external-preview.redd.it/gW4pw4AU0hTXp-PdlgkSslNnYo7ME20GujDETKPI18c.jpg?auto=webp&s=c4de542f1c4d8e481de74af0d5fca77bb037532f);
+      background-size: cover;
+    }
+
+    .the_lab {
+      background-image: url(https://i.redd.it/el7cgdzcno721.jpg);
+      background-size: cover;
+    }
+
+    .reserve {
+      background-image: url(https://i.redd.it/2pyggtv9upv31.png);
+      background-size: cover;
+    }
+/* Main Style End */
